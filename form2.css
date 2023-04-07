@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(200, 248, 248);
+}
+
+.head {
+    text-align: center;
+    color:rgb(105, 240, 72)
+}
+
+hr {
+    height: 3px;
+    background-color: aqua;
+    border: none;
+}
+
+p {
+    line-height: 10px;
+}
+
+.box{
+    height: 700px;
+    /* width: 550px; */
+    margin: 20px 400px;
+    padding: 10px 10px;
+    /* text-align: center; */
+    font-size: 12px;
+    background-color: white;
+}
+
+.hissu {
+    padding: 1px;
+    background-color: rgb(245, 36, 36);
+    color: white;
+    border-radius: 4px;
+}
+
+input.nametext {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+input.agetext {
+    width: 10%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.course_radio{
+    display: flex;
+    /*下記二つの記述によってラジオボタンが中央に揃えられた。理由不明*/
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.kaijou {
+    margin-bottom: 15px;
+}
+
+.check_naiyou {
+    margin-bottom: 15px;
+}
+
+.check_naiyou label {
+    display: block;
+}
+
+.check_naiyou.checkbox {
+    margin-bottom: 10px;
+}
+
+.freetext {
+    width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.AxiZ {
+    text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>質問・感想フォーム</title>
+</head>
+<body>
+    <h1>質問・感想フォーム</h1>
+    <div class="box">
+        <div class="name">
+        氏名
+        </div>
+        <form action="result.html">
+            <input class="nametext" type="text" id="name" name="name"><br>
+
+        <div class="sei">
+        性別
+        </div>
+            <div class="radio_sei">
+                    <label class="man"><input type="radio" name="sei" value="male" checked>男</label>
+
+                    <label class="woman"><input type="radio" name="sei" value="female">女</label>
+            </div>
+
+        年齢<br>
+            <select class="nendai" name="趣味">
+                <option value="10" selected >10代</option>
+                <option value="20">20代</option>
+                <option value="30">30代</option>
+                <option value="40">40代</option>
+                <option value="50">50代</option>
+                <option value="60">60代</option>
+                <option value="70">70代</option>
+                <option value="80">80代</option>
+            </select><br>
+
+        <div class="kongo">
+        今後見てみたいレシピ
+        </div>
+            <div class="check_recipe">
+                <label class="recipe"><input type="checkbox" name="wasyoku" value="check" >和食</label>
+
+                <label class="recipe"><input type="checkbox" name="tyuuka" value="check" >中華</label>
+
+                <label class="recipe"><input type="checkbox" name="yousyoku" value="check">洋食</label>
+
+                <label class="recipe"><input type="checkbox" name="itarian" value="check" >イタリアン</label>
+
+                <label class="recipe"><input type="checkbox" name="sui-tu" value="check" >スイーツ</label>
+
+                <label class="recipe"><input type="checkbox" name="sonota" value="check" >その他</label>
+            </div>
+
+        <div class="komento">
+        自由コメント欄
+        </div>
+            <div>
+                <textarea class="freetext" name="free" rows="5" cols="45"></textarea>
+            <div>
+
+        <button class="send" type="submit">送信</button>
+        <button type="reset">取り消し</button>
+        </form>
+    </div>
+</body>
+</html>
